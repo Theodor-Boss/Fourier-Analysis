@@ -44,8 +44,8 @@ c_comps = simpson(ims_ns, x=tsC, axis=1)
 
 
 # Here we specify which data points we want it to produce a smooth curve through
-start_time = 0.25
-end_time = 0.45
+start_time = 0.29
+end_time = 0.344
 num_of_evals = 5678
 times = np.linspace(start_time, end_time, num_of_evals)
 
